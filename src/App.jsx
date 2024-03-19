@@ -1,5 +1,7 @@
 
-import './App.css'
+
+import AppRoutes from './AppRoutes'
+import TopNav from './components/TopNav'
 
 function App() {
 
@@ -7,13 +9,8 @@ function App() {
   return (
 
     <div className='app'>
-      <img src='https://github.com/maemay85/lavenderTops/blob/main/src/assets/IMG_8511.JPG?raw=true' />
-      <div className='temp'>
-        <h1>Lavender Tops</h1>
-        <h2>Full site coming soon!</h2>
-        <h3>Check us out on <a href="https://instagram.com/lavendertopsband">Instagram</a></h3>
-        <h3>or reach out to us at: ilovelavendertops@gmail.com</h3>
-      </div>
+      <TopNav />
+      <AppRoutes />
     </div>
   )
 }
