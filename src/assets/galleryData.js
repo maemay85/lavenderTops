@@ -1,65 +1,52 @@
 export const galleryData = [
-
 {
-  id: 0,
-  imageUrl: '/KelsoShredz.JPG',
-  prev: null,
-  next: 'src/assets/LukSmiling.jpeg'
+  id: 0
 },
-
 {
   id: 1,
-  imageUrl: 'src/assets/LukSmiling.jpeg',
-  prev: 'src/assets/KelsoShredz.JPG',
-  next: 'src/assets/MaeAlexKelsoLooking.JPG'
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/KelsoShredz.JPG?raw=true',
+  direction: 'portrait'
 },
 
 {
   id: 2,
-  imageUrl: 'src/assets/MaeAlexKelsoLooking.JPG',
-  prev: 'src/assets/LukSmiling.jpeg',
-  next: 'src/assets/MaeAlexKelsoLookinLandscape.JPG'
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/LukSmiling.jpeg?raw=true',
+  direction: 'landscape'
 },
 
 {
   id: 3,
-  imageUrl: 'src/assets/MaeAlexKelsoLookinLandscape.JPG',
-  prev: 'src/assets/MaeAlexKelsoLooking.JPG',
-  next: 'src/assets/MaeandKelsoREADY.JPG'
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/MaeAlexKelsoLookinLandscape.JPG?raw=true',
+  direction: 'landscape'
 },
 
 {
   id: 4,
-  imageUrl: 'src/assets/MaeandKelsoREADY.JPG',
-  prev: 'src/assets/MaeAlexKelsoLookinLandscape.JPG',
-  next: 'src/assets/MaeDrama.JPG'
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/MaeandKelsoREADY.JPG?raw=true',
+  direction: 'landscape'
 },
 
 {
   id: 5,
-  imageUrl: 'src/assets/MaeDrama.JPG',
-  prev: 'src/assets/MaeandKelsoREADY.JPG',
-  next: 'src/assets/MaeHandUpVibes.JPG'
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/MaeHandUpVibes.JPG?raw=true',
+  direction: 'landscape'
 },
 
 {
   id: 6,
-  imageUrl: 'src/assets/MaeHandUpVibes.JPG',
-  prev: 'src/assets/MaeDrama.JPG',
-  next: 'src/assets/MaeShredsDark.JPG'
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/MaeDrama.JPG?raw=true',
+  direction: 'portrait'
 },
 
 {
   id: 7,
-  imageUrl: 'src/assets/MaeShredsDark.JPG',
-  prev: 'src/assets/MaeHandUpVibes.JPG',
-  next: 'src/assets/Polaroid.JPG'
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/MaeShredsDark.JPG?raw=true',
+  direction: 'portrait'
 },
 
 {
   id: 8,
-  imageUrl: 'src/assets/Polaroid.JPG',
-  prev: 'src/assets/MaeShredsDark.JPG',
-  next: null
+  imageUrl: 'https://github.com/maemay85/lavenderTops/blob/main/src/assets/Polaroid.JPG?raw=true',
+  direction: 'portrait'
 }
 ]
