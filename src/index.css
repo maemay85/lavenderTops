@@ -114,6 +114,19 @@ h1 {
   width: 24rem;
 }
 
+.show-time {
+  text-decoration: underline;
+}
+
+.show-time:hover {
+  font-weight: bold;
+}
+
+.venue {
+  text-indent: 4ch;
+  font-weight: bolder;
+}
+
 @media (max-width: 660px) {
 
   body {

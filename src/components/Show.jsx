@@ -2,15 +2,15 @@
 
 const Show = (show) => {
 
-  const {title, date} = show
+  const {title, venue, date} = show.show;
+  const formattedDate = `${date.getMonth()}/${date.getDate()}/${date.getFullYear()}`;
 
 
 
   return (
     <div className="show">
-      {title}
-      {date}
-
+      <h2>{title}</h2>
+      <p className="venue">{`${venue.name} (${venue.location}) - ${formattedDate}`}</p>
     </div>
   )
 }
