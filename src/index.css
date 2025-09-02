@@ -1,0 +1,142 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #eeeeee;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: rgb(59, 59, 162);
+  text-decoration: inherit;
+}
+a:hover {
+  font-style: italic;
+  color: rgb(59, 59, 162);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(242, 242, 242);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 85vh;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 15vh;
+}
+
+.topnav a, .home a {
+  color: rgb(59, 59, 162);
+  font-weight: 900;
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+.topnav a:hover, .home a:hover {
+  color: rgb(59, 59, 162);
+  font-style: italic;
+}
+
+.home {
+  width: 50vw;
+}
+
+.gallery {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.portrait img {
+  width: 10rem;
+  height: auto;
+}
+
+.landscape img {
+  height: 10rem;
+  width: auto;
+}
+
+.galleryimage-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.galleryimage-container a {
+  font-size: large;
+  font-weight: 800;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  border: 1px solid lavender;
+  margin: 1rem;
+}
+
+.galleryimage-landscape img{
+  width: 32rem;
+}
+
+.galleryimage-portrait img{
+  width: 24rem;
+}
+
+@media (max-width: 660px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .home {
+    width: 85vw;
+    flex-direction: column;
+  }
+
+  .home h1 {
+    font-size: 2.5rem;
+  }
+
+  .galleryimage-container{
+    flex-direction: column;
+    height: 75vh;
+  }
+  .galleryimage-landscape, .galleryimage-portrait {
+    width: 85vw;
+  }
+  .galleryimage-landscape img, .galleryimage-portrait img {
+    width: 100%;
+  }
+}
