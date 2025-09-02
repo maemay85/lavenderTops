@@ -43,6 +43,7 @@ h1 {
 }
 
 .topnav {
+  color:rgba(0, 0, 0, 0.87);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -52,12 +53,14 @@ h1 {
 }
 
 .topnav a, .home a {
+  color:rgba(0, 0, 0, 0.87);
   font-weight: 900;
   font-size: larger;
   text-transform: uppercase;
 }
 
 .topnav a:hover, .home a:hover {
+  color:rgba(0, 0, 0, 0.87);
   font-style: italic;
 }
 
