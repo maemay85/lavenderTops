@@ -15,12 +15,10 @@
 
 a {
   font-weight: 500;
-  color: rgb(59, 59, 162);
   text-decoration: inherit;
 }
 a:hover {
   font-style: italic;
-  color: rgb(59, 59, 162);
 }
 
 body {
@@ -54,14 +52,12 @@ h1 {
 }
 
 .topnav a, .home a {
-  color: rgb(59, 59, 162);
   font-weight: 900;
   font-size: larger;
   text-transform: uppercase;
 }
 
 .topnav a:hover, .home a:hover {
-  color: rgb(59, 59, 162);
   font-style: italic;
 }
 
