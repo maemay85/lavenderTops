@@ -5,7 +5,7 @@ const TopNav = () => {
   <div className="topnav">
     <Link to={'/home'}>Home</Link>
     <Link to={'/shows'}>Shows</Link>
-    <Link to={'/gallery'}>Gallery</Link>
+    {/*<Link to={'/gallery'}>Gallery</Link>*/}
   </div>
   )
 }
